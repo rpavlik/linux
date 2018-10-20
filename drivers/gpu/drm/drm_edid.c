@@ -193,6 +193,9 @@ static const struct edid_quirk {
 
 	/* OSVR HDK and HDK2 VR Headsets */
 	{ "SVR", 0x1019, EDID_QUIRK_NON_DESKTOP },
+
+	/* 3Glasses D3 VR Headset */
+	{ "TSB", 0x8888, EDID_QUIRK_NON_DESKTOP },
 };
 
 /*
